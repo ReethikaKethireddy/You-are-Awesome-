@@ -3,6 +3,7 @@
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -31,6 +32,13 @@
                                 <rect key="contentStretch" x="0.25" y="0.14999999999999999" width="1" height="1"/>
                                 <color key="color" cyan="0.057759899650000002" magenta="0.0054824352259999999" yellow="0.71886396409999997" black="0.17426069629999999" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
                             </activityIndicatorView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C9z-no-kNO">
+                                <rect key="frame" x="113" y="207" width="165" height="131"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.88456464295320303" green="0.90463226010101006" blue="0.70430157792677206" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <imageReference key="image" image="pencil" catalog="system" renderingMode="template"/>
+                                <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="bold"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.033526350050561975" green="0.17728061868686873" blue="0.0031991974470982265" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -41,4 +49,7 @@
             <point key="canvasLocation" x="60" y="90.995260663507111"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="pencil" catalog="system" width="128" height="113"/>
+    </resources>
 </document>
