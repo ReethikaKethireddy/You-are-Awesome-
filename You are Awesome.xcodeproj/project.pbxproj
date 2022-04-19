@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		781B011A280DBD4D009A15A4 /* tableViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781B0119280DBD4D009A15A4 /* tableViewContainer.swift */; };
 		783A7F6927FCD12800C2EAD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A7F6827FCD12800C2EAD3 /* AppDelegate.swift */; };
 		783A7F6B27FCD12800C2EAD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A7F6A27FCD12800C2EAD3 /* SceneDelegate.swift */; };
 		783A7F6D27FCD12800C2EAD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783A7F6C27FCD12800C2EAD3 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		781B0119280DBD4D009A15A4 /* tableViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableViewContainer.swift; sourceTree = "<group>"; };
 		783A7F6527FCD12800C2EAD3 /* You are Awesome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "You are Awesome.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		783A7F6827FCD12800C2EAD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		783A7F6A27FCD12800C2EAD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				783A7F7127FCD12900C2EAD3 /* Assets.xcassets */,
 				783A7F7327FCD12900C2EAD3 /* LaunchScreen.storyboard */,
 				783A7F7627FCD12900C2EAD3 /* Info.plist */,
+				781B0119280DBD4D009A15A4 /* tableViewContainer.swift */,
 			);
 			path = "You are Awesome";
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				783A7F6D27FCD12800C2EAD3 /* ViewController.swift in Sources */,
+				781B011A280DBD4D009A15A4 /* tableViewContainer.swift in Sources */,
 				783A7F6927FCD12800C2EAD3 /* AppDelegate.swift in Sources */,
 				783A7F6B27FCD12800C2EAD3 /* SceneDelegate.swift in Sources */,
 			);
